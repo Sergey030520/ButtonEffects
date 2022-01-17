@@ -2,7 +2,6 @@
 #include <QApplication>
 #include <QPushButton>
 #include <QTimer>
-#include <QPixmap>
 #include <iostream>
 #include <QPainter>
 #include <QMediaPlayer>
@@ -49,7 +48,7 @@ EffectButton::EffectButton(QWidget *parent){
                 pathProject->absolutePath().append(R"(\audio effects\audio-effect.mp3)")));
         effectBtn->setVolume(75);
         effectBtn->play();
-    });
+    });//setting the sound effect when the button is pressed
 }
 
 void EffectButton::paintEvent(QPaintEvent *e) {
@@ -73,12 +72,12 @@ void EffectButton::setDown() {
     mCurrentButtonPixmap = mDownButtonPixmap;
     update();
     QTimer::singleShot(100, this, &EffectButton::setUp);
-}
+}//drawing a button in the pressed state
 
 void EffectButton::setUp() {
     mCurrentButtonPixmap = mUpButtonPixmap;
     update();
-}
+}//rendering a button in the not pressed state
 
 
 int main(int argc, char *argv[]) {
