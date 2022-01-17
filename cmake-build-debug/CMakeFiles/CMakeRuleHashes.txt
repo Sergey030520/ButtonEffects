@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+35ab3dd369c5a0213dfc7b1e4526ee4e CMakeFiles/ButtonEffects_autogen

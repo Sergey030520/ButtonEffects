@@ -1,0 +1,4 @@
+C:/Users/Malip/CLionProjects/ButtonEffects/cmake-build-debug/CMakeFiles/ButtonEffects.dir
+C:/Users/Malip/CLionProjects/ButtonEffects/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Malip/CLionProjects/ButtonEffects/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Malip/CLionProjects/ButtonEffects/cmake-build-debug/CMakeFiles/ButtonEffects_autogen.dir
